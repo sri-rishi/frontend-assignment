@@ -1,2 +1,6 @@
 @import "./searchBox/searchBox.css";
 @import "./navbar/navbar.css";
+@import "./sidebar/sidebar.css";
+@import "./card/card.css";
+@import "./chips/chips.css";
+@import "./cardList/cardList.css";
