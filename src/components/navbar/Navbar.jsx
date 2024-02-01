@@ -1,5 +1,5 @@
 import { LOGO } from "../../assets";
-import {Button, SearchBox} from "../index";
+import { SearchBox} from "../index";
 
 const Navbar = () => {
     return (
@@ -16,7 +16,9 @@ const Navbar = () => {
                 <p>BUY</p>
                 <p>LIST</p>
             </div>
-            <Button text={"Upgrade"} className={"nav-btn"}/>
+            <button className="nav-btn">
+                <p className="nav-btn-text">Upgrade</p>
+            </button>
             <SearchBox />
         </nav>
     )
