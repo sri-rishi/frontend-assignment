@@ -1,0 +1,8 @@
+.card-list {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 3rem;
+    padding: 2rem 1rem;
+    background-image: linear-gradient(to right, #FCEFDA, #D6FEDD);
+}

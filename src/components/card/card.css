@@ -1,0 +1,66 @@
+.card {
+    width: 27rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.4);
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.card-main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 1rem;
+    padding: 0 2rem;
+}
+
+.owner-user {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.card:nth-child(4) {
+    margin-top: -12rem;
+}
+
+.card:nth-child(6) {
+    margin-top: -21rem;
+}
+
+.owner-user-imgs {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.user-1, .user-2, .user-3 {
+    width: 2rem;
+}
+
+.user-2 {
+    position: absolute;
+    left: 30%;
+}
+
+.user-3 {
+    position: absolute;
+    left: 60%;
+}
+
+.chips-box {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.playing-btn {
+    width: 10rem;
+    position: absolute;
+    top: 30%;
+    left: 30%
+}
