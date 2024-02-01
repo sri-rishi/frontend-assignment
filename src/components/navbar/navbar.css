@@ -1,0 +1,49 @@
+.nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    font-weight: 500;
+    color: var(--white-color);
+}
+
+.nav-heading {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.logo {
+    width: 2.25rem;
+    height: 3.75rem;
+}
+
+.title {
+    font-size: 2rem;
+    line-height: 2.3rem;
+    
+}
+
+.nav-tabs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+}
+
+
+.nav-btn {
+    border: 2px solid var(--dark-skin-color);
+    border-radius: 1.9rem;
+    outline: none;
+    background: transparent;
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
