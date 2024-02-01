@@ -1,9 +1,14 @@
 import './App.css';
+import {CardList, Navbar , Sidebar} from './components';
 
 function App() {
   return (
     <div className="App">
-      Hello 
+      <Navbar />
+      <div className="main">
+        <Sidebar />
+        <CardList />
+      </div>
     </div>
   );
 }
